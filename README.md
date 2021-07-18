@@ -1,6 +1,6 @@
 # Dotfiles
 
-nord theme openbox rice\
+nord theme openbox rice
 
 Place the .config folder inside of the home directory
 
