@@ -1,6 +1,6 @@
 # Dotfiles
 
-nord theme rice
+nord theme rice\
 will be updated.
 
 ## Prerequisites
