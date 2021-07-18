@@ -1,7 +1,6 @@
 # Dotfiles
 
 nord theme openbox rice\
-will be updated.
 
 Place the .config folder inside of the home directory
 
