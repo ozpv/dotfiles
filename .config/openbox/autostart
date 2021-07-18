@@ -1,0 +1,3 @@
+picom &
+nitrogen --restore &
+polybar -q main -c $HOME/.config/polybar/config.ini
