@@ -1,8 +1,8 @@
-# dotfiles
+# Dotfiles
 
 will be updated.
 
-## prerequisites
+## Prerequisites
 openbox
 polybar
 picom
