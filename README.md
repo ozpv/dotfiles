@@ -3,4 +3,21 @@
 very simple nord theme openbox rice
 
 ## Prerequisites
-openbox, polybar, picom-ibhagwan-git, dmenu, networkmanager-dmenu-git, nitrogen, lxappearance, alacritty, BetterDiscord, spicetify-cli, JetBrains Mono Font, and the Iosevka Nerd Font
+
+#### Main
+- Openbox
+- dmenu
+- nitrogen
+- lxappearance
+- ttf-jetbrains-mono
+
+#### AUR
+- alacritty
+- polybar
+- spicetify-cli
+- picom-ibhagwan-git
+- nerd-fonts-iosevka
+- networkmanager-dmenu-git
+
+#### Other
+- [BetterDiscord](https://github.com/BetterDiscord/BetterDiscord)
