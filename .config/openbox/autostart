@@ -1,4 +1,4 @@
-nohup pulseaudio > /dev/null 2>&1 &
+start-pulseaudio-x11 &
 picom &
 nitrogen --restore &
-polybar -q main -c ~/.config/polybar/config.ini
+polybar main -c ~/.config/polybar/config.ini
