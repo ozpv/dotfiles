@@ -10,6 +10,7 @@ very simple nord theme openbox rice
 - nitrogen
 - lxappearance
 - ttf-jetbrains-mono
+- ttf-dejavu
 
 #### AUR
 - alacritty
