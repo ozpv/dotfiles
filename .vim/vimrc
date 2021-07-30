@@ -4,4 +4,3 @@ set nu
 set nowrap
 set incsearch
 set tabstop=2 softtabstop=2
-set smartindent
