@@ -61,7 +61,7 @@
     </keybind>
     <keybind key="W-space">
       <action name="Execute">
-        <command>dmenu_run</command>
+        <command>dmenu_run -l 20 -nb '#2e3440' -nf '#eceff4' -sb '#434c5e' -sf '#eceff4'</command>
       </action>
     </keybind>
   </keyboard>
