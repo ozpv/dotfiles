@@ -1,6 +1,5 @@
 # Dotfiles
-
-very simple nord theme openbox rice
+gruvbox + openbox
 
 ## Prerequisites
 
