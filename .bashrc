@@ -1,2 +1,2 @@
-~/.config/colorscripts/ghosts.sh
+~/.colorscripts/ghosts.sh
 eval "$(starship init bash)"
