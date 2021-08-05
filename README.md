@@ -23,4 +23,3 @@ very simple nord theme openbox rice
 #### Other
 - [BetterDiscord](https://github.com/BetterDiscord/BetterDiscord)
 - [Starship](https://github.com/starship/starship)
-- [Nord Vim](https://github.com/arcticicestudio/nord-vim)
