@@ -1,4 +1,0 @@
-start-pulseaudio-x11 &
-picom &
-nitrogen --restore &
-polybar main -c ~/.config/polybar/config.ini
