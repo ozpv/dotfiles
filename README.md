@@ -1,10 +1,11 @@
 # Dotfiles
-gruvbox + openbox
+gruvbox + bspwm
 
 ## Prerequisites
 
 #### Main
-- Openbox
+- bspwm
+- sxhkd
 - dmenu
 - nitrogen
 - lxappearance
