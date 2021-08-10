@@ -23,4 +23,3 @@ gruvbox + bspwm
 
 #### Other
 - [BetterDiscord](https://github.com/BetterDiscord/BetterDiscord)
-- [Starship](https://github.com/starship/starship)
