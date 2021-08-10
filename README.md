@@ -4,6 +4,7 @@ gruvbox + bspwm
 ## Prerequisites
 
 #### Main
+- fish
 - bspwm
 - sxhkd
 - dmenu
