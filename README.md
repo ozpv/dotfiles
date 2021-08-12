@@ -7,14 +7,12 @@ gruvbox + bspwm
 - fish
 - bspwm
 - sxhkd
-- dmenu
 - nitrogen
 - lxappearance
 - ttf-jetbrains-mono
 - ttf-dejavu
 
 #### AUR
-- alacritty
 - polybar
 - spicetify-cli
 - picom-ibhagwan-git
@@ -22,4 +20,6 @@ gruvbox + bspwm
 - networkmanager-dmenu-git
 
 #### Other
-- [BetterDiscord](https://github.com/BetterDiscord/BetterDiscord)
+- [BetterDiscord](https://github.com/BetterDiscord/BetterDiscord/)
+- [dmenu](https://tools.suckless.org/dmenu/)
+- [st](https://st.suckless.org/)
