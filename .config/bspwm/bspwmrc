@@ -2,6 +2,8 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
+xsetroot -cursor_name left_ptr &
+
 picom &
 nitrogen --restore &
 start-pulseaudio-x11 &
@@ -9,8 +11,7 @@ polybar main -c ~/.config/polybar/config.ini &
 
 bspc monitor -d I
 
-bspc config window_gap           12
-bspc config border_size          2
+bspc config window_gap		       12
 
 bspc config split_ratio          0.52
 bspc config borderless_monocle   true
