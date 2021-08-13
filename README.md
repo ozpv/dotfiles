@@ -9,8 +9,6 @@ gruvbox + bspwm
 - sxhkd
 - nitrogen
 - lxappearance
-- ttf-jetbrains-mono
-- ttf-dejavu
 
 #### AUR
 - polybar
@@ -21,5 +19,6 @@ gruvbox + bspwm
 
 #### Other
 - [BetterDiscord](https://github.com/BetterDiscord/BetterDiscord/)
+- [FiraCode Fonts](https://github.com/tonsky/FiraCode)
 - [dmenu](https://github.com/ozpv/dmenu)
 - [st](https://github.com/ozpv/st)
