@@ -21,5 +21,5 @@ gruvbox + bspwm
 
 #### Other
 - [BetterDiscord](https://github.com/BetterDiscord/BetterDiscord/)
-- [dmenu](https://tools.suckless.org/dmenu/)
-- [st](https://st.suckless.org/)
+- [dmenu](https://github.com/ozpv/dmenu)
+- [st](https://github.com/ozpv/st)
