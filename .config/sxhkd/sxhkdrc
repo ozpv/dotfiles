@@ -5,7 +5,7 @@ super + f
 	firefox
 
 super + @space
-	dmenu_run -l 20 -nb '#282828' -nf '#ebdbb2' -sb '#928374' -sf '#ebdbb2'
+	dmenu_run -h 22
 
 # quit, close, etc...
 super + alt + {q,r}
