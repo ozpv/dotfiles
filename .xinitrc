@@ -32,4 +32,11 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-exec bspwm
+xsetroot -cursor_name left_ptr &
+
+picom &
+nitrogen --restore &
+start-pulseaudio-x11 &
+polybar main -c ~/.config/polybar/config.ini &
+
+exec dwm
