@@ -1,12 +1,10 @@
 # Dotfiles
-gruvbox + bspwm
+gruvbox + dwm
 
 ## Prerequisites
 
 #### Main
 - fish
-- bspwm
-- sxhkd
 - nitrogen
 - lxappearance
 
@@ -22,3 +20,4 @@ gruvbox + bspwm
 - [FiraCode Fonts](https://github.com/tonsky/FiraCode)
 - [dmenu](https://github.com/ozpv/dmenu)
 - [st](https://github.com/ozpv/st)
+- [dwm](ttps://github.com/ozpv/dwm)
