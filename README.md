@@ -22,3 +22,4 @@ gruvbox + dwm
 - [dmenu](https://github.com/ozpv/dmenu/)
 - [st](https://github.com/ozpv/st/)
 - [dwm](https://github.com/ozpv/dwm/)
+- [dwmblocks](https://github.com/ozpv/dwmblocks/)
