@@ -23,3 +23,4 @@ gruvbox + dwm
 - [st](https://github.com/ozpv/st/)
 - [dwm](https://github.com/ozpv/dwm/)
 - [dwmblocks](https://github.com/ozpv/dwmblocks/)
+- [sfetch](https://github.com/ozpv/sfetch/)
