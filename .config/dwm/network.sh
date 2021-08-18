@@ -2,7 +2,7 @@
 status="$(cat /sys/class/net/e*/operstate 2>/dev/null)"
 
 if [ "$status" == "up" ]; then
-  echo " online"
+  echo "直 online"
 else
-  echo "ﲁ offline" 
+  echo "睊 offline" 
 fi
