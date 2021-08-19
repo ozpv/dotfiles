@@ -7,7 +7,6 @@ gruvbox + dwm
 - fish
 - nitrogen
 - lxappearance
-- ttf-font-awesome
 
 #### AUR
 - polybar
