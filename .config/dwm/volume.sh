@@ -1,7 +1,2 @@
-vol="$(amixer get Master | tail -n1 | sed -r 's/.*\[(.*)%\].*/\1/')"
-
-if [ "$vol" == "0" ]; then
-  echo "ﱝ muted"
-else
-  echo "奄 ${vol}%" 
-fi
+vol="$(pactl list sinks | grep '^[[:space:]]Volume:' | head -n $(( $SINK + 1 )) | tail -n 1 | sed -e 's,.* \([0-9][0-9]*\)%.*,\1,')"
+[ "$vol" == "0" ] && echo "ﱝ muted" || echo "奄 ${vol}%"
