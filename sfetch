@@ -1,0 +1,46 @@
+#! /bin/sh
+
+os="$(cat /etc/os-release | grep "PRETTY_NAME" | sed 's/PRETTY_NAME=//g' | sed 's/"//g')"
+shell="$(cat /etc/passwd | grep ^$USER: | grep -Eo ':([^:]*)$' | sed 's/://g')"
+mem="$(free -h | awk '/^Mem/ { print $3"/"$2 }' | sed s/i//g)"
+pml="$(pacman -Q | wc -l | sed 's/$/ (pacman)/')"
+te="$(ps -o comm= -p "$(($(ps -o ppid= -p "$(($(ps -o sid= -p "$$")))")))")"
+ut="$(uptime -p | sed 's/up //g')"
+[ ! "$wm" ] && [ "$DISPLAY" ]  && command -v xprop >/dev/null && {
+id=$(xprop -root -notype _NET_SUPPORTING_WM_CHECK)
+id=${id##* }
+wm=$(xprop -id "$id" -notype -len 100 -f _NET_WM_NAME 8t |
+grep '^_NET_WM_NAME' | cut -d\" -f 2)
+}
+
+red='[31m'
+green='[32m'
+white='[37m'
+def='[0m'
+
+printf ${red} && cat << "EOF"
+    _,--._.-,
+   /\_r-,\_ )
+.-.) _;='_/ (.;
+ \ \'     \/S )
+  L.'-. _.'|-'
+ <_`-'\'_.'/
+   `'-._( \ 
+EOF
+printf ${green} && cat << "EOF"
+    ___   \\,      ___
+    \ .'-. \\   .-'_. /
+     '._' '.\\/.-'_.'
+        '--``\('--'
+              \\
+              `\\,
+                \|
+EOF
+
+echo ${red}os ${white}~ ${green}${os}
+echo ${red}ut ${white}~ ${green}${ut}
+echo ${red}pc ${white}~ ${green}${pml}
+echo ${red}sh ${white}~ ${green}${shell##*/}
+[ -z "$wm" ] && continue || echo ${red}wm ${white}~ ${green}${wm}
+echo ${red}te ${white}~ ${green}${te}
+echo ${red}mu ${white}~ ${green}${mem} && printf ${def}
