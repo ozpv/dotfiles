@@ -4,7 +4,6 @@ gruvbox + dwm
 ## Prerequisites
 
 #### Main
-- fish
 - nitrogen
 - lxappearance
 
