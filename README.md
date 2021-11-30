@@ -3,7 +3,7 @@ gruvbox + dwm
 
 ## Prerequisites
 
-#### Main
+#### Main Repositories 
 - nitrogen
 - lxappearance
 
@@ -22,3 +22,4 @@ gruvbox + dwm
 - [dwm](https://github.com/ozpv/dwm/)
 - [dwmblocks](https://github.com/ozpv/dwmblocks/)
 - [sfetch](https://github.com/ozpv/sfetch/)
+- [gruvbox gtk theme](https://github.com/TheGreatMcPain/gruvbox-material-gtk/)
