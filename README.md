@@ -3,14 +3,14 @@ gruvbox + dwm
 
 ## Prerequisites
 
-#### Main Repositories 
+#### Main Repositories
+- picom
 - nitrogen
 - lxappearance
 
 #### AUR
 - polybar
 - spicetify-cli
-- picom-ibhagwan-git
 - nerd-fonts-iosevka
 - nerd-fonts-fira-code
 - networkmanager-dmenu-git
