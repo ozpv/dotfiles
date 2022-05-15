@@ -7,6 +7,5 @@ dwmblocks 2>&1 >/dev/null &
 picom &
 nitrogen --restore &
 start-pulseaudio-x11 &
-#polybar main -c ~/.config/polybar/config.ini &
 
 exec dwm
