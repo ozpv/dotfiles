@@ -14,6 +14,7 @@ gruvbox + dwm
 - nerd-fonts-iosevka
 - nerd-fonts-fira-code
 - networkmanager-dmenu-git
+- lf
 
 #### Other
 - [BetterDiscord](https://github.com/BetterDiscord/BetterDiscord/)
