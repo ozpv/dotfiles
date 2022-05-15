@@ -9,12 +9,9 @@ gruvbox + dwm
 - lxappearance
 
 #### AUR
-- polybar
-- spicetify-cli
-- nerd-fonts-iosevka
-- nerd-fonts-fira-code
-- networkmanager-dmenu-git
 - lf
+- spicetify-cli
+- networkmanager-dmenu-git
 
 #### Other
 - [BetterDiscord](https://github.com/BetterDiscord/BetterDiscord/)
@@ -24,3 +21,4 @@ gruvbox + dwm
 - [dwmblocks](https://github.com/ozpv/dwmblocks/)
 - [sfetch](https://github.com/ozpv/sfetch/)
 - [gruvbox gtk theme](https://github.com/TheGreatMcPain/gruvbox-material-gtk/)
+- [FiraCode Nerd Font](https://www.nerdfonts.com/font-downloads)
