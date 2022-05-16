@@ -19,6 +19,5 @@ gruvbox + dwm
 - [dwm](https://github.com/ozpv/dwm/)
 - [dmenu](https://github.com/ozpv/dmenu/)
 - [dwmblocks](https://github.com/ozpv/dwmblocks/)
-- [BetterDiscord](https://github.com/BetterDiscord/BetterDiscord/)
 - [gruvbox-material-gtk](https://github.com/TheGreatMcPain/gruvbox-material-gtk/)
 - [FiraCode Nerd Font](https://www.nerdfonts.com/font-downloads)
