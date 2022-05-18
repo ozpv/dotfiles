@@ -7,7 +7,6 @@ gruvbox + dwm
 - picom
 - nitrogen
 - neofetch
-- lxappearance
 
 #### AUR
 - lf
@@ -21,3 +20,5 @@ gruvbox + dwm
 - [dwmblocks](https://github.com/ozpv/dwmblocks/)
 - [gruvbox-material-gtk](https://github.com/TheGreatMcPain/gruvbox-material-gtk/)
 - [FiraCode Nerd Font](https://www.nerdfonts.com/font-downloads)
+- [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+- [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
