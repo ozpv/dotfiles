@@ -18,7 +18,7 @@ gruvbox + dwm
 - [dwm](https://github.com/ozpv/dwm/)
 - [dmenu](https://github.com/ozpv/dmenu/)
 - [dwmblocks](https://github.com/ozpv/dwmblocks/)
-- [gruvbox-material-gtk](https://github.com/TheGreatMcPain/gruvbox-material-gtk/)
 - [FiraCode Nerd Font](https://www.nerdfonts.com/font-downloads)
+- [gruvbox-material-gtk](https://github.com/TheGreatMcPain/gruvbox-material-gtk/)
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
