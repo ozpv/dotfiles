@@ -1,5 +1,6 @@
 set ignorecase true
 set icons true
+set hidden true
 
 cmd mkd ${{
     printf "Directory Name: "
