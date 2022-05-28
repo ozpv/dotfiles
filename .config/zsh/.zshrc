@@ -2,7 +2,7 @@
 
 zle_highlight=('paste:none')
 
-PROMPT="%~ $ "
+PROMPT="%F{#ebdbb2}%~ $ "
 
 alias cp='cp -v'
 alias mv='mv -v'
@@ -11,6 +11,9 @@ alias mkdir='mkdir -v -p'
 alias rmdir='rmdir -v'
 alias ls='ls -la --color=auto'
 alias grep='grep --color=auto'
+
+bindkey "^[[1;2C" forward-word
+bindkey "^[[1;2D" backward-word
 
 source $ZDOTDIR/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $ZDOTDIR/zsh-autosuggestions/zsh-autosuggestions.zsh
