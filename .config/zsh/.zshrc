@@ -14,6 +14,7 @@ alias grep='grep --color=auto'
 
 bindkey "^[[1;2C" forward-word
 bindkey "^[[1;2D" backward-word
+bindkey "^H" backward-kill-word
 
 source $ZDOTDIR/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $ZDOTDIR/zsh-autosuggestions/zsh-autosuggestions.zsh
