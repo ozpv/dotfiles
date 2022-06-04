@@ -9,9 +9,6 @@ gruvbox + dwm
 - nitrogen
 - neofetch
 
-- spicetify-cli
-- networkmanager-dmenu-git
-
 #### Other
 - [st](https://github.com/ozpv/st)
 - [dwm](https://github.com/ozpv/dwm)
