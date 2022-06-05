@@ -33,7 +33,7 @@ cd networkmanager-dmenu
 sudo cp networkmanager_dmenu /usr/local/bin/networkmanager_dmenu
 ```
 
-Step 2: down dhcpcd, wpa_supplicant, or wicd
+Step 2: down dhcpcd, wpa_supplicant, and wicd
 ```
 sudo sv down dhcpcd
 sudo sv down wpa_supplicant
