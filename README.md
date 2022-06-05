@@ -83,3 +83,16 @@ then
 echo "<user> ALL = NOPASSWD: /usr/local/bin/networkmanager_dmenu" >> /etc/sudoers
 ```
 make sure to replace the user placeholder with your username
+
+### libXft-devel not installing (breaking pre-installed packages)
+
+Step 1: update your system
+```
+sudo xbps-install -Su
+```
+You might have have to run this command twice If your update includes the xbps package, XBPS must use a separate transaction to update itself and you will need to run the above command a second time to apply the rest of the updates
+
+Step 2: install libXft-devel
+```
+sudo xbps-install libXft-devel
+```
