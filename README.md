@@ -24,6 +24,27 @@ gruvbox + dwm
 
 ## Notes
 
+### dwm/powermenu installation
+
+Step 1: clone & install my build of dwm
+```
+git clone https://github.com/ozpv/dwm
+cd dwm
+sudo make install
+```
+
+Step 2: append sudo exception to /etc/sudoers
+```
+su
+```
+then
+```
+echo "<user> ALL = NOPASSWD: /sbin/reboot" >> /etc/sudoers
+echo "<user> ALL = NOPASSWD: /sbin/poweroff" >> /etc/sudoers
+echo "<user> ALL = NOPASSWD: /sbin/ZZZ" >> /etc/sudoers
+```
+make sure to replace the user placeholder with your username
+
 ### networkmanager-dmenu installation (void)
 
 Step 1: clone & copy networkmanager_dmenu to $PATH
@@ -61,4 +82,4 @@ then
 ```
 echo "<user> ALL = NOPASSWD: /usr/local/bin/networkmanager_dmenu" >> /etc/sudoers
 ```
-make sure to replace the <user> placeholder with your username
+make sure to replace the user placeholder with your username
