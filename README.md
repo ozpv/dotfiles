@@ -47,9 +47,9 @@ sudo touch /etc/sv/wicd/down
 ```
 Step 3: up dbus & networkmanager
 ```
-ln -s /etc/sv/dbus /var/service/
+sudo ln -s /etc/sv/dbus /var/service/
 sudo sv up dbus
-ln -s /etc/sv/NetworkManager /var/service/
+sudo ln -s /etc/sv/NetworkManager /var/service/
 sudo sv up NetworkManager
 ```
 
