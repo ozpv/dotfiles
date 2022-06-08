@@ -5,7 +5,7 @@ gruvbox + dwm
 
 #### main repositories
 
-| **Prerequisite** | **Purpose** |
+| **prerequisite** | **purpose** |
 |------------------|-------------|
 |lf|terminal file manager|
 |zsh|interactive shell/interpreter|
@@ -15,7 +15,7 @@ gruvbox + dwm
 |networkmanager|networking|
 
 #### other
-| **Prerequisite** | **Purpose** |
+| **prerequisite** | **purpose** |
 |------------------|-------------|
 |[st](https://github.com/ozpv/st)|terminal emulator|
 |[dwm](https://github.com/ozpv/dwm)|window manager|
