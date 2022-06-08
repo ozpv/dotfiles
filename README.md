@@ -27,6 +27,12 @@ gruvbox + dwm
 |[gruvbox-material-gtk](https://github.com/TheGreatMcPain/gruvbox-material-gtk)|gtk theme|
 |[zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)|syntaxhighlighting for zsh|
 
+#### copy & paste
+
+```
+sudo xbps-install -S lf zsh picom nitrogen neofetch networkmanager
+```
+
 ## Notes
 
 ### dwm/powermenu installation
