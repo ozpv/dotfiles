@@ -1,9 +1,9 @@
-# Dotfiles
+# dotfiles
 gruvbox + dwm
 
-## Prerequisites
+## prerequisites
 
-#### Main Repositories
+#### main repositories
 
 | **Prerequisite** | **Purpose** |
 |------------------|-------------|
@@ -14,7 +14,7 @@ gruvbox + dwm
 |neofetch|system information tool|
 |networkmanager|networking|
 
-#### Other
+#### other
 | **Prerequisite** | **Purpose** |
 |------------------|-------------|
 |[st](https://github.com/ozpv/st)|terminal emulator|
@@ -30,21 +30,21 @@ gruvbox + dwm
 #### copy & paste
 
 ```
-sudo xbps-install -S lf zsh picom nitrogen neofetch networkmanager
+sudo xbps-install -S lf zsh picom nitrogen neofetch NetworkManager
 ```
 
-## Notes
+## notes
 
 ### dwm/powermenu installation
 
-Step 1: clone & install my build of dwm
+step 1: clone & install my build of dwm
 ```
 git clone https://github.com/ozpv/dwm
 cd dwm
 sudo make install
 ```
 
-Step 2: append sudo exception to /etc/sudoers
+step 2: append sudo exception to /etc/sudoers
 ```
 su
 ```
@@ -58,14 +58,14 @@ make sure to replace the user placeholder with your username
 
 ### networkmanager-dmenu installation (void)
 
-Step 1: clone & copy networkmanager_dmenu to $PATH
+step 1: clone & copy networkmanager_dmenu to $PATH
 ```
 git clone https://github.com/firecat53/networkmanager-dmenu
 cd networkmanager-dmenu
 sudo cp networkmanager_dmenu /usr/local/bin/networkmanager_dmenu
 ```
 
-Step 2: down dhcpcd, wpa_supplicant, and wicd
+step 2: down dhcpcd, wpa_supplicant, and wicd
 ```
 sudo sv down dhcpcd
 sudo sv down wpa_supplicant
@@ -77,7 +77,7 @@ sudo touch /etc/sv/dhcpcd/down
 sudo touch /etc/sv/wpa_supplicant/down
 sudo touch /etc/sv/wicd/down
 ```
-Step 3: up dbus & networkmanager
+step 3: up dbus & networkmanager
 ```
 sudo ln -s /etc/sv/dbus /var/service/
 sudo sv up dbus
@@ -85,7 +85,7 @@ sudo ln -s /etc/sv/NetworkManager /var/service/
 sudo sv up NetworkManager
 ```
 
-Step 4: append sudo exception to /etc/sudoers
+step 4: append sudo exception to /etc/sudoers
 ```
 su
 ```
@@ -97,13 +97,13 @@ make sure to replace the user placeholder with your username
 
 ### libXft-devel not installing (breaking pre-installed packages)
 
-Step 1: update your system
+step 1: update your system
 ```
 sudo xbps-install -Su
 ```
 You might have have to run this command twice If your update includes the xbps package, XBPS must use a separate transaction to update itself and you will need to run the above command a second time to apply the rest of the updates
 
-Step 2: install libXft-devel
+step 2: install libXft-devel
 ```
 sudo xbps-install libXft-devel
 ```
