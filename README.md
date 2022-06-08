@@ -7,10 +7,10 @@ gruvbox + dwm
 
 | **Prerequisite** | **Purpose** |
 |------------------|-------------|
-|lf|Terminal file manager|
+|lf|terminal file manager|
 |zsh|interactive shell/interpreter|
 |picom|compositor|
-|nitrogen|Set the desktop background|
+|nitrogen|set the desktop background|
 |neofetch|system information tool|
 |networkmanager|networking|
 
@@ -26,7 +26,6 @@ gruvbox + dwm
 |[networkmanager-dmenu](https://github.com/firecat53/networkmanager-dmenu)|manage networking|
 |[gruvbox-material-gtk](https://github.com/TheGreatMcPain/gruvbox-material-gtk)|gtk theme|
 |[zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)|syntaxhighlighting for zsh|
-
 
 ## Notes
 
