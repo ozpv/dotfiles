@@ -37,7 +37,7 @@ sudo xbps-install -S lf zsh picom nitrogen neofetch NetworkManager
 
 ### dmenu/powermenu installation
 
-step 1: clone & install my build of dmenu
+step 1: clone & install my build of [dmenu](https://github.com/ozpv/dmenu)
 ```
 git clone https://github.com/ozpv/dmenu
 cd dmenu
