@@ -1,5 +1,6 @@
 syntax on
 set bg=dark
+colorscheme gruvbox
 set incsearch
 set hlsearch
 set clipboard=unnamedplus
