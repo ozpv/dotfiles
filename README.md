@@ -35,11 +35,11 @@ sudo xbps-install -S lf zsh picom nitrogen neofetch NetworkManager
 
 ## notes
 
-### dwm/powermenu installation
+### dmenu/powermenu installation
 
-step 1: clone & install my build of dwm
+step 1: clone & install my build of dmenu
 ```
-git clone https://github.com/ozpv/dwm
+git clone https://github.com/ozpv/dmenu
 cd dwm
 sudo make install
 ```
