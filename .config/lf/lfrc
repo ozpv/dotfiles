@@ -50,6 +50,10 @@ cmd delete ${{
     [ "$ans" = "y" ] && rm -rf $fx
 }}
 
+cmd edit ${{
+    vim ./
+}}
+
 map m
 map md mkd
 map mf mkf
@@ -58,4 +62,6 @@ map mt tar
 map mz zip
 map ms cd /media/Storage/
 map mh cd ~
+map mv edit 
+map mr reload
 map <delete> delete
