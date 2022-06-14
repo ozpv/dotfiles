@@ -8,12 +8,13 @@ gruvbox + dwm
 | **prerequisite** | **purpose** |
 |------------------|-------------|
 |lf|terminal file manager|
+|mpc|mpd command-line client|
 |mpd|music player daemon|
 |zsh|interactive shell/interpreter|
 |picom|compositor|
-|nitrogen|set the desktop background|
 |neofetch|system information tool|
-|ncmpcpp|mpd client|
+|nitrogen|set the desktop background|
+|ncmpcpp|mpd cli client|
 |networkmanager|networking|
 
 #### other
@@ -32,7 +33,7 @@ gruvbox + dwm
 #### installation command (main repositories)
 
 ```
-sudo xbps-install -S lf zsh picom nitrogen neofetch NetworkManager mpd ncmpcpp
+sudo xbps-install -S lf mpc mpd zsh picom neofetch nitrogen ncmpcpp NetworkManager  
 ```
 
 ## notes
