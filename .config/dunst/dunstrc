@@ -1,0 +1,28 @@
+[global]
+    monitor = 0
+    follow = mouse
+    offset = 20x42
+    padding = 8
+    horizontal_padding = 8
+    frame_width = 2
+    font = "FiraCode Nerd Font Mono Regular" 10
+    dmenu = /usr/bin/dmenu -p dunst:
+    browser = /usr/bin/firefox
+
+[urgency_low]
+    background = "#282828"
+    foreground = "#ebdbb2"
+    frame_color = "#98971a"
+    timeout = 5
+
+[urgency_normal]
+    background = "#282828"
+    foreground = "#ebdbb2"
+    frame_color = "#d79921"
+    timeout = 5
+
+[urgency_critical]
+    background = "#282828"
+    foreground = "#ebdbb2"
+    frame_color = "#cc241d"
+    timeout = 5
