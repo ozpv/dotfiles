@@ -1,0 +1,9 @@
+function zshadd() {
+    N=$(echo $1 | cut -d "/" -f 2)
+    if [ -d "$ZDOTDIR/$N" ]; then
+        source "$ZDOTDIR/$N/$N.zsh"
+    else
+        git clone "https://github.com/$1" "$ZDOTDIR/$N"
+        exec zsh
+    fi
+}
