@@ -12,6 +12,7 @@ gruvbox + dwm
 |mpd|music player daemon|
 |zsh|interactive shell/interpreter|
 |maim|screenshot utility|
+|dunst|notification daemon|
 |picom|compositor|
 |neofetch|system information tool|
 |nitrogen|set the desktop background|
@@ -34,7 +35,7 @@ gruvbox + dwm
 #### installation command (main repositories)
 
 ```
-sudo xbps-install -S lf mpc mpd zsh maim picom neofetch nitrogen ncmpcpp NetworkManager  
+sudo xbps-install -S lf mpc mpd zsh maim dunst picom neofetch nitrogen ncmpcpp NetworkManager  
 ```
 
 ## notes
