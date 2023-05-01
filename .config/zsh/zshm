@@ -7,3 +7,9 @@ function zshadd() {
         exec zsh
     fi
 }
+
+function zshremove() {
+    N=$(echo $1 | sed -e 's/.*[/]//g')
+    rm -rf $ZDOTDIR/$N
+    exec zsh
+}
