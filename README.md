@@ -26,7 +26,7 @@ gruvbox + dwm
 |[dwm](https://github.com/ozpv/dwm)|window manager|
 |[dmenu](https://github.com/ozpv/dmenu)|application launcher/more|
 |[dwmblocks](https://github.com/ozpv/dwmblocks)|status bar|
-|[FiraCode Nerd Font](https://www.nerdfonts.com/font-downloads)|terminal font|
+|[JetBrainsMono Nerd Font](https://www.nerdfonts.com/font-downloads)|system font|
 |[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)|autosuggestions for zsh|
 |[networkmanager-dmenu](https://github.com/firecat53/networkmanager-dmenu)|manage networking|
 |[gruvbox-material-gtk](https://github.com/TheGreatMcPain/gruvbox-material-gtk)|gtk theme|
