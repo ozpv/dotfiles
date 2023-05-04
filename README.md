@@ -15,7 +15,7 @@ gruvbox + dwm
 |dunst|notification daemon|
 |picom|compositor|
 |neofetch|system information tool|
-|nitrogen|set the desktop background|
+|xwallpaper|set the desktop background|
 |ncmpcpp|mpd cli client|
 |networkmanager|networking|
 
@@ -35,7 +35,7 @@ gruvbox + dwm
 #### installation command (main repositories)
 
 ```
-sudo xbps-install -S lf mpc mpd zsh maim dunst picom neofetch nitrogen ncmpcpp NetworkManager  
+sudo xbps-install -S lf mpc mpd zsh maim dunst picom neofetch xwallpaper ncmpcpp NetworkManager  
 ```
 
 ## notes
