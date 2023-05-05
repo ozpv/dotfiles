@@ -100,6 +100,22 @@ echo "<user> ALL = NOPASSWD: /usr/local/bin/networkmanager_dmenu" >> /etc/sudoer
 ```
 make sure to replace the user placeholder with your username
 
+### set lf as a default file manager (void)
+
+step 1: create /usr/share/applications/defaults.list
+```
+su
+```
+then
+```
+touch /usr/share/applications/defaults.list
+```
+
+step 2: append default to /usr/share/applications/defaults.list
+```
+echo "inode/directory=lf.desktop;" >> /usr/share/applications/defaults.list
+```
+
 ### libXft-devel not installing (breaking pre-installed packages)
 
 step 1: update your system
