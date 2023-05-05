@@ -25,7 +25,7 @@ gruvbox + dwm
 |[st](https://github.com/ozpv/st)|terminal emulator|
 |[dwm](https://github.com/ozpv/dwm)|window manager|
 |[dmenu](https://github.com/ozpv/dmenu)|application launcher/more|
-|[dwmblocks](https://github.com/ozpv/dwmblocks)|status bar|
+|[slstatus](https://github.com/ozpv/slstatus)|status bar|
 |[JetBrainsMono Nerd Font](https://www.nerdfonts.com/font-downloads)|system font|
 |[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)|autosuggestions for zsh|
 |[networkmanager-dmenu](https://github.com/firecat53/networkmanager-dmenu)|manage networking|
