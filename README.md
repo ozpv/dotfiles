@@ -18,6 +18,7 @@ gruvbox + dwm
 |xwallpaper|set the desktop background|
 |ncmpcpp|mpd cli client|
 |networkmanager|networking|
+|sxiv|simple x image viewer|
 
 #### other
 | **prerequisite** | **purpose** |
