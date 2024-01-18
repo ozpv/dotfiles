@@ -25,6 +25,7 @@ gruvbox + dwm
 |[st](https://github.com/ozpv/st)|terminal emulator|
 |[dwm](https://github.com/ozpv/dwm)|window manager|
 |[dmenu](https://github.com/ozpv/dmenu)|application launcher/more|
+|[slock](https://tools.suckless.org/slock/)|display locker|
 |[slstatus](https://github.com/ozpv/slstatus)|status bar|
 |[JetBrainsMono Nerd Font](https://www.nerdfonts.com/font-downloads)|system font|
 |[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)|autosuggestions for zsh|
@@ -99,6 +100,23 @@ then
 echo "<user> ALL = NOPASSWD: /usr/local/bin/networkmanager_dmenu" >> /etc/sudoers
 ```
 make sure to replace the user placeholder with your username
+
+### slock installation (void)
+
+step 1: clone suckless' slock
+```
+git clone https://git.suckless.org/slock
+```
+step 2: cd to slock and make install!
+```
+cd slock
+sudo make install
+```
+step 3: run slock on resume from runit's sleep
+```
+touch /etc/zzz.d/resume/slock.sh
+sudo echo -e "#\!/bin/sh\n\nslock" > /etc/zzz.d/resume/slock.sh
+```
 
 ### set lf as a default file manager (void)
 
