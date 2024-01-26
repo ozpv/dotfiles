@@ -9,8 +9,10 @@ alias mv='mv -v'
 alias rm='rm -v'
 alias mkdir='mkdir -v -p'
 alias rmdir='rmdir -v'
-alias ls='ls -la --color=auto'
+alias ls='ls -hla --color=auto'
 alias grep='grep --color=auto'
+alias vim-basic='/usr/bin/vim'
+alias vim='nvim'
 
 bindkey "^[[1;2C" forward-word
 bindkey "^[[1;2D" backward-word
