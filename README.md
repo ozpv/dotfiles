@@ -50,19 +50,24 @@ git clone https://github.com/ozpv/dmenu
 cd dmenu
 sudo make install
 ```
-
-step 2: append sudo exception to /etc/sudoers
+ 
+step 2: clone & install powermenu [powermenu](https://github.com/ozpv/powermenu)
+```
+git clone https://github.com/ozpv/powermenu
+cd powermenu
+sudo make install
+```
+  
+step 3: append sudo exception to /etc/sudoers
 ```
 su
 ```
 then
 ```
-echo "<user> ALL = NOPASSWD: /sbin/reboot" >> /etc/sudoers
-echo "<user> ALL = NOPASSWD: /sbin/poweroff" >> /etc/sudoers
-echo "<user> ALL = NOPASSWD: /sbin/ZZZ" >> /etc/sudoers
+echo "<user> ALL = NOPASSWD: /usr/local/bin/powermenu" >> /etc/sudoers
 ```
 make sure to replace the user placeholder with your username
-
+ 
 ### networkmanager-dmenu installation (void)
 
 step 1: clone & copy networkmanager_dmenu to $PATH
